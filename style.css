@@ -1,0 +1,136 @@
+#navbarMonstera{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#navMid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+div>div>h4{
+    padding-left: 40px ;
+    padding-right: 40px;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+#navEnd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>div>div>img{
+    padding-left: 15px ;
+    padding-right: 15px;
+}
+#midWhole{
+    display: flex;
+    flex-direction: row;
+}
+#midWholePart1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#midWholePart13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 80px;
+}
+#midWholePart13>div>div>h4{
+    font-family: 'Allerta';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+}
+#midWholePart11>div>ul>li{
+    padding-left: 40px ;
+    padding-right: 40px;
+    font-family: 'Allerta';
+    font-style: normal;
+    font-size: 18px;
+    width: 600px;
+    line-height: 25px;
+    color: #1f1f1f;
+}
+#monstera{
+    font-family: 'Allerta';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 100px;
+}
+#midWholePart11>div{
+    position: relative;
+    top: 150px;
+}
+#midWholePart121>div>h1{
+    font-family: 'Abel';
+    font-style: normal;
+    position: relative;
+    left: 100px;
+    top: 58px;
+    font-weight: 100;
+    color: #fff;
+}
+#midWholePart121::before{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #466D50;
+    position: relative;
+    top: 125px;
+    left: 70px;
+}
+#midWholePart122{
+    position: relative;
+    left: 238px;
+    top: 8px;
+}
+#midWholePart122>img{
+    width: 10px;
+    height: 20px;
+}
+.text{
+    font-family: 'Allerta';
+    font-style: normal;
+    font-size: 10px;
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    align-items: center;
+}
+#fee{
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+#lig{
+    position: relative;
+    bottom: 85px;
+    left: 10px;
+}
+#car{
+    position: relative;
+    bottom: 85px;
+    left: 25px;
+}
+.special{
+    position: relative;
+    bottom: 35px;
+}
